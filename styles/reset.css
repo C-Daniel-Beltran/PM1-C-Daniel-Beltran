@@ -1,0 +1,70 @@
+/* Reset de márgenes y rellenos */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Eliminar el estilo de los enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Restablecer el estilo de listas */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Restablecer el estilo de tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Restablecer el estilo de elementos de formulario */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+/* Establecer el estilo base de fuentes y tamaños */
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 17px;
+    text-shadow: 0 2px rgba(0,0,0,0.4) ;
+}
+
+/* Restablecer la apariencia de elementos de bloque */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Restablecer el estilo de párrafos */
+p {
+    margin: 0;
+}
+
+/* Restablecer el estilo de imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Restablecer el estilo de objetos incrustados */
+object,
+embed {
+    max-width: 100%;
+    height: auto;
+}

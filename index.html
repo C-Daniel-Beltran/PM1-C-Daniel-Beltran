@@ -1,11 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Proyecto M1</h1>
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de presentación</title>
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="titulos">
+        DANIEL BELTRÁN <br />
+        Desarrollador Backend - Apasionado por la Escalabilidad y la Eficiencia
+      </h1>
+    </header>
+    <main>
+      <section>
+        <h2 class="titulos">* Sobre mí</h2>
+        <div class="sobreMi">
+          <p>
+            Hola, soy Daniel, un desarrollador backend con [X años] de
+            experiencia en la construcción de soluciones robustas, escalables y
+            seguras. Mi pasión por la programación y mi enfoque en la
+            optimización del rendimiento me han permitido entregar aplicaciones
+            de alta calidad que resuelven problemas complejos y satisfacen las
+            necesidades de los usuarios.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2 class="titulos">* Mis tecnologías favoritas</h2>
+        <div class="contenedorPadre">
+          <div class="contenedorHijo">
+            <figure>
+              <img src="/images/logoJS.png" alt="logoJS" />
+              <div class="capa">
+                <h3>JavaScript</h3>
+                <p>JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript.</p>
+              </div>
+            </figure>
+          </div>
+          <div class="contenedorHijo">
+            <figure>
+              <img src="/images/NestJS.svg" alt="logoNestJS" />
+              <div class="capa">
+                <h3>NestJS</h3>
+                <p>NestJS es un marco para crear aplicaciones web Node.js escalables y eficientes</p>
+              </div>
+            </figure>
+          </div>
+          <div class="contenedorHijo">
+            <figure>
+              <img src="/images/logoTS.png" alt="logoTS" />
+              <div class="capa">
+                <h3>TypeScript</h3>
+                <p>TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft.</p>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2 class="titulos">* Mis actividades favoritas</h2>
+        <div class="contenedorRecuadros">
+          <div class="recuadros">
+            <input type="text" placeholder="Titulo" id="titulo" />
+          </div>
+          <div class="recuadros">
+            <textarea
+              name="descripcion"
+              id="descripcion"
+              placeholder="Descripción"
+            ></textarea>
+          </div>
+          <div class="recuadros">
+            <input type="text" placeholder="URL de la imagen" id="url" />
+          </div>
+        </div>
+        <div class="boton">
+          <button>Enviar</button>
+        </div>
+      </section>
+      <section>
+        <div class="cards">
+          <p>Nada agregado aun.</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="pieDePagina">Agosto 2024 - Realizado por C. Daniel Beltrán</div>
+    </footer>
+  </body>
 </html>
