@@ -132,13 +132,22 @@ button {
 
 .cards {
   width: 95%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   margin: auto;
   border-radius: 0.5em;
   padding-top: 1em;
   padding-bottom: 1em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  justify-items: center;
+}
+
+.paragraph{
+  text-align: center;
+}
+
+.nada {
+  grid-column: 2/3;
 }
 
 .pieDePagina {
@@ -149,6 +158,7 @@ button {
 .foto {
   width: 15em;
   height: 15em;
+  border-radius: 50%;
 }
 
 .marco {

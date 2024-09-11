@@ -52,7 +52,7 @@ function handlerDelete(id) {
   let activities = repository.getAllActivities();
   activities.length != 0
     ? convertirActivities()
-    : (contenedor.innerHTML = "<p>Nada agregado aun.</p>");
+    : (contenedor.innerHTML = "<p class='nada'>Nada agregado aun.</p>");
 }
 
 function convertirActivities() {
