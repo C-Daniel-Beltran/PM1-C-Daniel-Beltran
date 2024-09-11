@@ -1,148 +1,162 @@
-body{
-    background-image: url(/images/imagenDeFondo.jpg);
-    background-color: rgba(0, 0, 0, 0.6);
-    background-blend-mode: luminosity;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    color: lightcyan;
+body {
+  background-image: url(/images/imagenDeFondo.jpg);
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: luminosity;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: lightcyan;
 }
 
-.titulos{
-    text-align: center;
+.titles {
+  text-align: center;
 }
 
-.sobreMi{
-    width: 95%;
-    margin: auto;
-    border-radius: 0.5em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    text-align: justify;
-    padding-left: 2em;
-    padding-right: 2em;
+.sobreMi {
+  width: 95%;
+  margin: auto;
+  border-radius: 0.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: justify;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
-.contenedorPadre{
-    width: 95%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: auto;
-    border-radius: 0.5em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+.contenedorPadre {
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  border-radius: 0.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
-.contenedorHijo{
-    display: flex;
-    border: lightcyan solid 0.125em;
-    width: auto;
-    border-radius: 102px;
-    justify-content: center;
-    align-items: center;
-    height: auto;
+.contenedorHijo {
+  display: flex;
+  border: lightcyan solid 0.125em;
+  width: auto;
+  border-radius: 102px;
+  justify-content: center;
+  align-items: center;
+  height: auto;
 }
 
-.contenedorHijo figure{
-    position: relative;
-    height: 250px;
-    width: 350px;
-    overflow: hidden;
-    border-radius: 100px;
-    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
+.contenedorHijo figure {
+  position: relative;
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+  border-radius: 100px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
-.contenedorHijo figure img{
-    width: 100%;
-    height: 100%;
-    transition: all 500ms ease-out;
+.contenedorHijo figure img {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
 }
 
-.contenedorHijo figure .capa{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    transition: all 500ms ease-out;
-    opacity: 0;
-    visibility: hidden;
-    text-align: center;
+.contenedorHijo figure .capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
 }
 
-.contenedorHijo figure:hover > .capa{
-    opacity: 1;
-    visibility: visible;
+.contenedorHijo figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
 }
 
-.contenedorHijo figure:hover > img{
-    transform: scale(1.3);
+.contenedorHijo figure:hover > img {
+  transform: scale(1.3);
 }
 
-.contenedorHijo figure:hover > .capa h3{
-    margin-top: 70px;
-    margin-bottom: 15px;
+.contenedorHijo figure:hover > .capa h3 {
+  margin-top: 70px;
+  margin-bottom: 15px;
 }
 
-.contenedorHijo figure .capa h3{
-    color: lightcyan;
-    font-weight: 400;
-    margin-top: 30px;
-    margin-bottom: 120px;
-    transition: all 500ms ease-out;
+.contenedorHijo figure .capa h3 {
+  color: lightcyan;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
 }
 
-.contenedorHijo figure .capa p{
-    color: lightcyan;
-    font-size: 15px;
-    line-height: 1.5;
-    width: 100%;
-    max-width: 220px;
-    margin: auto;
+.contenedorHijo figure .capa p {
+  color: lightcyan;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
 }
 
-.contenedorRecuadros{
-    border: lightcyan solid 0.125em;
-    margin-bottom: 0.125em;
-    width: 95%;
-    margin: auto;
+.contenedorRecuadros {
+  border: lightcyan solid 0.125em;
+  margin-bottom: 0.125em;
+  width: 95%;
+  margin: auto;
 }
 
-.recuadros{
-    border: lightcyan solid 0.0625em;
-    margin: 0.125em;
+.recuadros {
+  border: lightcyan solid 0.0625em;
+  margin: 0.125em;
 }
 
-button{
-    border: lightcyan solid 0.0625em;
+button {
+  border: lightcyan solid 0.0625em;
 }
 
-.boton{
-    display: flex;
-    justify-content: center;
-    margin-top: 1em;
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
 }
 
-#titulo{
-    width: 100%;
+#titulo,
+#description,
+#url {
+  width: 100%;
 }
 
-#descripcion{
-    width: 100%;
+.cards {
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  border-radius: 0.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
-#url{
-    width: 100%;
+.pieDePagina {
+  text-align: center;
+  padding-top: 2em;
 }
 
-.cards{
-    padding-top: 10px;
-    text-align: center;
+.foto {
+  width: 15em;
+  height: 15em;
 }
 
-
-.pieDePagina{
-    text-align: center;
-    padding-top: 2em;
+.marco {
+  display: flex;
+  flex-direction: column;
+  border: lightcyan solid 0.0625em;
+  border-radius: 2em;
+  overflow: hidden;
+  align-items: center;
+  padding: 0.5em;
 }

@@ -8,16 +8,15 @@
     <link rel="stylesheet" href="/styles/styles.css" />
   </head>
   <body>
-    <script src="/scripts/index.js"></script>
     <header>
-      <h1 class="titulos">
+      <h1 class="titles">
         DANIEL BELTRÁN <br />
         Desarrollador Backend - Apasionado por la Escalabilidad y la Eficiencia
       </h1>
     </header>
     <main>
       <section>
-        <h2 class="titulos">* Sobre mí</h2>
+        <h2 class="titles">* Sobre mí</h2>
         <div class="sobreMi">
           <p>
             Hola, soy Daniel, un desarrollador backend con [X años] de
@@ -30,14 +29,17 @@
         </div>
       </section>
       <section>
-        <h2 class="titulos">* Mis tecnologías favoritas</h2>
+        <h2 class="titles">* Mis tecnologías favoritas</h2>
         <div class="contenedorPadre">
           <div class="contenedorHijo">
             <figure>
               <img src="/images/logoJS.png" alt="logoJS" />
               <div class="capa">
                 <h3>JavaScript</h3>
-                <p>JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript.</p>
+                <p>
+                  JavaScript es un lenguaje de programación interpretado,
+                  dialecto del estándar ECMAScript.
+                </p>
               </div>
             </figure>
           </div>
@@ -46,7 +48,10 @@
               <img src="/images/NestJS.svg" alt="logoNestJS" />
               <div class="capa">
                 <h3>NestJS</h3>
-                <p>NestJS es un marco para crear aplicaciones web Node.js escalables y eficientes</p>
+                <p>
+                  NestJS es un marco para crear aplicaciones web Node.js
+                  escalables y eficientes
+                </p>
               </div>
             </figure>
           </div>
@@ -55,22 +60,25 @@
               <img src="/images/logoTS.png" alt="logoTS" />
               <div class="capa">
                 <h3>TypeScript</h3>
-                <p>TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft.</p>
+                <p>
+                  TypeScript es un lenguaje de programación libre y de código
+                  abierto desarrollado y mantenido por Microsoft.
+                </p>
               </div>
             </figure>
           </div>
         </div>
       </section>
       <section>
-        <h2 class="titulos">* Mis actividades favoritas</h2>
+        <h2 class="titles">* Mis actividades favoritas</h2>
         <div class="contenedorRecuadros">
           <div class="recuadros">
             <input type="text" placeholder="Titulo" id="titulo" />
           </div>
           <div class="recuadros">
             <textarea
-              name="descripcion"
-              id="descripcion"
+              name="description"
+              id="description"
               placeholder="Descripción"
             ></textarea>
           </div>
@@ -78,18 +86,21 @@
             <input type="text" placeholder="URL de la imagen" id="url" />
           </div>
         </div>
-        <div class="boton">
-          <button>Enviar</button>
+        <div class="button">
+          <button id="add">Enviar</button>
         </div>
       </section>
       <section>
-        <div class="cards">
+        <div class="cards" id="cards">
           <p>Nada agregado aun.</p>
         </div>
       </section>
     </main>
     <footer>
-      <div class="pieDePagina">Agosto 2024 - Realizado por C. Daniel Beltrán</div>
+      <div class="pieDePagina">
+        Agosto 2024 - Realizado por C. Daniel Beltrán
+      </div>
     </footer>
+    <script src="/scripts/index.js"></script>
   </body>
 </html>
